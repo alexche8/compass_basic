@@ -1,0 +1,9 @@
+@mixin nested_list($nested_class, $first_list, $last_list)
+  @for $i from $first_list through $last_list
+    #{'.'}#{$nested_class}#{'_'}#{$i}
+      counter-reset: #{$nested_class}#{'_'}#{$i}
+      >li
+        list-style-type: none
+        &:before
+          counter-increment: #{$nested_class}#{'_'}#{$i}
+          content: #{"'"}#{$i}#{".'"} counter(#{$nested_class}#{'_'}#{$i}) " "
