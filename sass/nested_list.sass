@@ -1,0 +1,22 @@
+@mixin nested_list($nested_class, $first_list, $last_list, $depth:'', $depth_class:'')
+  @for $i from $first_list through $last_list
+    @if $depth == 'none'
+      #{'.'}#{$nested_class}#{'_'}#{$i}
+        counter-reset: #{$nested_class}#{'_'}#{$i}
+        >li
+          list-style-type: none
+          &:before
+            counter-increment: #{$nested_class}#{'_'}#{$i}
+            @if $depth == 'none'
+              content: #{"'"}#{$i}#{".'"} counter(#{$nested_class}#{'_'}#{$i}) " "
+            @else
+              content: #{"'"}#{$i}#{$depth}#{".'"} counter(#{$nested_class}#{'_'}#{$i}) " "
+    @else
+      #{'.'}#{$nested_class}#{'_'}#{$i}#{$depth_class}
+        counter-reset: #{$nested_class}#{'_'}#{$i}#{$depth_class}
+        >li
+          list-style-type: none
+          &:before
+            counter-increment: #{$nested_class}#{'_'}#{$i}#{$depth_class}            
+            content: #{"'"}#{$i}#{$depth}#{".'"} counter(#{$nested_class}#{'_'}#{$i}#{$depth_class}) " "
+
