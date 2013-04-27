@@ -1,139 +1,55 @@
-/* line 15, ../sass/nested_list.sass */
-.nested_1_one_four {
-  counter-reset: nested_1_one_four;
+/* line 5, ../sass/nested_list.sass */
+.nested-1 {
+  counter-reset: nested-1;
 }
-/* line 17, ../sass/nested_list.sass */
-.nested_1_one_four > li {
+/* line 7, ../sass/nested_list.sass */
+.nested-1 > li {
   list-style-type: none;
 }
-/* line 19, ../sass/nested_list.sass */
-.nested_1_one_four > li:before {
-  counter-increment: nested_1_one_four;
-  content: '1.1.4.' counter(nested_1_one_four) " ";
+/* line 9, ../sass/nested_list.sass */
+.nested-1 > li:before {
+  counter-increment: nested-1;
+  content: '1.' counter(nested-1) " ";
 }
 
-/* line 15, ../sass/nested_list.sass */
-.nested_2_one_four {
-  counter-reset: nested_2_one_four;
+/* line 5, ../sass/nested_list.sass */
+.nested-2 {
+  counter-reset: nested-2;
 }
-/* line 17, ../sass/nested_list.sass */
-.nested_2_one_four > li {
+/* line 7, ../sass/nested_list.sass */
+.nested-2 > li {
   list-style-type: none;
 }
-/* line 19, ../sass/nested_list.sass */
-.nested_2_one_four > li:before {
-  counter-increment: nested_2_one_four;
-  content: '2.1.4.' counter(nested_2_one_four) " ";
+/* line 9, ../sass/nested_list.sass */
+.nested-2 > li:before {
+  counter-increment: nested-2;
+  content: '2.' counter(nested-2) " ";
 }
 
-/* line 15, ../sass/nested_list.sass */
-.nested_3_one_four {
-  counter-reset: nested_3_one_four;
+/* line 5, ../sass/nested_list.sass */
+.inner-nested-1-15-one {
+  counter-reset: inner-nested-1-15-one;
 }
-/* line 17, ../sass/nested_list.sass */
-.nested_3_one_four > li {
+/* line 7, ../sass/nested_list.sass */
+.inner-nested-1-15-one > li {
   list-style-type: none;
 }
-/* line 19, ../sass/nested_list.sass */
-.nested_3_one_four > li:before {
-  counter-increment: nested_3_one_four;
-  content: '3.1.4.' counter(nested_3_one_four) " ";
+/* line 9, ../sass/nested_list.sass */
+.inner-nested-1-15-one > li:before {
+  counter-increment: inner-nested-1-15-one;
+  content: '1.1.' counter(inner-nested-1-15-one) " ";
 }
 
-/* line 15, ../sass/nested_list.sass */
-.nested_4_one_four {
-  counter-reset: nested_4_one_four;
+/* line 5, ../sass/nested_list.sass */
+.inner-nested-2-15-one {
+  counter-reset: inner-nested-2-15-one;
 }
-/* line 17, ../sass/nested_list.sass */
-.nested_4_one_four > li {
+/* line 7, ../sass/nested_list.sass */
+.inner-nested-2-15-one > li {
   list-style-type: none;
 }
-/* line 19, ../sass/nested_list.sass */
-.nested_4_one_four > li:before {
-  counter-increment: nested_4_one_four;
-  content: '4.1.4.' counter(nested_4_one_four) " ";
-}
-
-/* line 15, ../sass/nested_list.sass */
-.nested_5_one_four {
-  counter-reset: nested_5_one_four;
-}
-/* line 17, ../sass/nested_list.sass */
-.nested_5_one_four > li {
-  list-style-type: none;
-}
-/* line 19, ../sass/nested_list.sass */
-.nested_5_one_four > li:before {
-  counter-increment: nested_5_one_four;
-  content: '5.1.4.' counter(nested_5_one_four) " ";
-}
-
-/* line 15, ../sass/nested_list.sass */
-.nested_6_one_four {
-  counter-reset: nested_6_one_four;
-}
-/* line 17, ../sass/nested_list.sass */
-.nested_6_one_four > li {
-  list-style-type: none;
-}
-/* line 19, ../sass/nested_list.sass */
-.nested_6_one_four > li:before {
-  counter-increment: nested_6_one_four;
-  content: '6.1.4.' counter(nested_6_one_four) " ";
-}
-
-/* line 15, ../sass/nested_list.sass */
-.nested_7_one_four {
-  counter-reset: nested_7_one_four;
-}
-/* line 17, ../sass/nested_list.sass */
-.nested_7_one_four > li {
-  list-style-type: none;
-}
-/* line 19, ../sass/nested_list.sass */
-.nested_7_one_four > li:before {
-  counter-increment: nested_7_one_four;
-  content: '7.1.4.' counter(nested_7_one_four) " ";
-}
-
-/* line 15, ../sass/nested_list.sass */
-.nested_8_one_four {
-  counter-reset: nested_8_one_four;
-}
-/* line 17, ../sass/nested_list.sass */
-.nested_8_one_four > li {
-  list-style-type: none;
-}
-/* line 19, ../sass/nested_list.sass */
-.nested_8_one_four > li:before {
-  counter-increment: nested_8_one_four;
-  content: '8.1.4.' counter(nested_8_one_four) " ";
-}
-
-/* line 15, ../sass/nested_list.sass */
-.nested_9_one_four {
-  counter-reset: nested_9_one_four;
-}
-/* line 17, ../sass/nested_list.sass */
-.nested_9_one_four > li {
-  list-style-type: none;
-}
-/* line 19, ../sass/nested_list.sass */
-.nested_9_one_four > li:before {
-  counter-increment: nested_9_one_four;
-  content: '9.1.4.' counter(nested_9_one_four) " ";
-}
-
-/* line 15, ../sass/nested_list.sass */
-.nested_10_one_four {
-  counter-reset: nested_10_one_four;
-}
-/* line 17, ../sass/nested_list.sass */
-.nested_10_one_four > li {
-  list-style-type: none;
-}
-/* line 19, ../sass/nested_list.sass */
-.nested_10_one_four > li:before {
-  counter-increment: nested_10_one_four;
-  content: '10.1.4.' counter(nested_10_one_four) " ";
+/* line 9, ../sass/nested_list.sass */
+.inner-nested-2-15-one > li:before {
+  counter-increment: inner-nested-2-15-one;
+  content: '2.1.' counter(inner-nested-2-15-one) " ";
 }
