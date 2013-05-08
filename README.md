@@ -1,15 +1,15 @@
 compass_list
 ============
 
-Mixin for creation a nested lists with sass (like 1.4, 1.5.2 etc.).
+Mixin for creating nested list(numbered) with sass, scss(like 1.4, 1.5.2 etc.).
 
 Usage
 ============
-1. Import nested_list into your sass/scss file
+1. Import nested_list mixin into your sass/scss file.
 
          @import 'nested_list'
          
-2. Include +nested_list   
+2. Include +nested_list() with params.   
          
          For simple nested lists
 
@@ -26,7 +26,7 @@ Usage
          //                 becouse classes not supported names like '.1' in css file
          +nested_list('inner-nested', 2, '.1', '15-one')
    
-3. Paste class names into html
+3. Paste class names into html.
 
         <ol class="nested-1">
            <li>First           
