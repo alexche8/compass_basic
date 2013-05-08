@@ -17,18 +17,14 @@ Usage
    
 3. Paste class names into html
 
-         <ol class="nested-1">
-           <li>First</li>
-           <li>Second</li>
-           <li>Third</li>
-         </ol>
-          <ol class="nested-2">
-           <li>First</li>
-           <li>Second</li>
-           <li>Third</li>
-         </ol>
-          <ol class="nested-3">
-           <li>First</li>
+        <ol class="nested-1">
+           <li>First           
+           	<ol class="inner-nested-1-15-one">
+         	  <li>First</li>
+         	  <li>Second</li>
+         	  <li>Third</li>
+         	</ol>
+           </li>
            <li>Second</li>
            <li>Third</li>
          </ol>
