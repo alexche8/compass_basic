@@ -22,5 +22,15 @@ Usage
            <li>Second</li>
            <li>Third</li>
          </ol>
+          <ol class="nested-2">
+           <li>First</li>
+           <li>Second</li>
+           <li>Third</li>
+         </ol>
+          <ol class="nested-3">
+           <li>First</li>
+           <li>Second</li>
+           <li>Third</li>
+         </ol>
          
 4. See the result
