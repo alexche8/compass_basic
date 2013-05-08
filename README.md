@@ -30,7 +30,7 @@ Usage
          // @param {String} piece of counter inner class name in css,
          //                 becouse classes not supported names like '.1' in css file
          // It is generate class names 'inner-nested-1-15-one', 'inner-nested-2-15-one' and styles for them
-         // it is work the same as the simple nested list
+         // it is work the same way as the simple nested list
          +nested_list('inner-nested', 1, '.1', '15-one')
          +nested_list('inner-nested', 1, '.2', '15-two')
    
