@@ -59,3 +59,5 @@ Usage
            <li>Second</li>
            <li>Third</li>
          </ol>
+         
+5. Output result <a href="http://jsfiddle.net/alexche8/UzXu3/2/">here</a>
