@@ -17,7 +17,7 @@ Usage
          // @param {Integer} number of lists. So on output we have 3 classes that will contain names 'nested-1', 'nested-2', ''nested-3'      
          +nested_list('nested',3)
          
-         For inner nested lists( 1.1.4, 1.51.1)
+         For three and more levels lists( 1.1.4, 1.51.1)
                   
          // @param {String} base class name of the ol list
          // @param {Integer} number of lists. So on output we have 3 classes that will contain names 'nested-1', 'nested-2', ''nested-3'
@@ -39,25 +39,5 @@ Usage
            <li>Second</li>
            <li>Third</li>
          </ol>
-
-4. Complate files
-
-   index.sass
-
-        +nested_list('nested',3)  
-        
-   index.html
-                  
-        <ol class="nested-1">
-           <li>First           
-                    <ol class="inner-nested-1-15-one">
-         	  <li>First</li>
-         	  <li>Second</li>
-         	  <li>Third</li>
-         	</ol>
-           </li>
-           <li>Second</li>
-           <li>Third</li>
-         </ol>
          
-5. Output result <a href="http://jsfiddle.net/alexche8/UzXu3/2/">here</a>
+5. Output result <a href="http://jsfiddle.net/alexche8/UzXu3/3/">here</a>
