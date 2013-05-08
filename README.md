@@ -32,11 +32,11 @@ Usage
 
         <ol class="nested-1">
            <li>First           
-           	<ol class="inner-nested-1-15-one">
+               <ol class="inner-nested-1-15-one">
          	  <li>First</li>
          	  <li>Second</li>
          	  <li>Third</li>
-         	</ol>
+               </ol>
            </li>
           <li>Second           
                   <ol class="inner-nested-2-15-one">
