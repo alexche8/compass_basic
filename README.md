@@ -16,9 +16,11 @@ Usage
          +nested_list('nested',3)
    
 3. Paste class names into html
-<ol class="nested-1">
-  <li>First</li>
-  <li>Second</li>
-  <li>Third</li>
-</ol>
+
+         <ol class="nested-1">
+           <li>First</li>
+           <li>Second</li>
+           <li>Third</li>
+         </ol>
+         
 4. See the result
