@@ -30,11 +30,12 @@ Usage
          </ol>
 
 4. Complate files
-   *.sass
+
+   index.sass
 
         +nested_list('nested',3)  
         
-   *.html
+   index.html
                   
         <ol class="nested-1">
            <li>First           
