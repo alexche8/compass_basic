@@ -26,7 +26,8 @@ Usage
          // @param {String} piece of counter inner class name in css,
          //                 becouse classes not supported names like '.1' in css file
          // It is generate class names 'inner-nested-1-15-one', 'inner-nested-2-15-one' and styles for them
-         +nested_list('inner-nested', 2, '.1', '15-one')
+         +nested_list('inner-nested', 1, '.1', '15-one')
+         +nested_list('inner-nested', 1, '.2', '15-two')
    
 3. Paste class names into html.
 
@@ -39,7 +40,7 @@ Usage
                </ol>
            </li>
           <li>Second           
-                  <ol class="inner-nested-2-15-one">
+                  <ol class="inner-nested-1-15-two">
          	  <li>First</li>
          	  <li>Second</li>
          	  <li>Third</li>
