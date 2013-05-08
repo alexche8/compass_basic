@@ -15,7 +15,11 @@ Usage
 
          // @param {String} base class name of the ol list
          // @param {Integer} number of lists. 
-         // It is generate class names 'nested-1', 'nested-2', ''nested-3' and styles for them
+         // It is generate class names 'nested-1', 'nested-2', ''nested-3' and styles for them.
+         // You must past class names in ol elements. 
+         // As result li included elements will started with 1.1, 1.2, etc for 'nested-1',
+                                                             2,1, 2,2, etc for 'nested-2',
+                                                             3,1, 3,2, etc for 'nested-3', etc.
          +nested_list('nested',3)
          
          For three and more levels lists( 1.1.4, 1.51.1)
@@ -26,6 +30,7 @@ Usage
          // @param {String} piece of counter inner class name in css,
          //                 becouse classes not supported names like '.1' in css file
          // It is generate class names 'inner-nested-1-15-one', 'inner-nested-2-15-one' and styles for them
+         // it is work the same as the simple nested list
          +nested_list('inner-nested', 1, '.1', '15-one')
          +nested_list('inner-nested', 1, '.2', '15-two')
    
