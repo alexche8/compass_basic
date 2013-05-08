@@ -39,7 +39,7 @@ Usage
          	</ol>
            </li>
           <li>Second           
-                    <ol class="inner-nested-2-15-one">
+                  <ol class="inner-nested-2-15-one">
          	  <li>First</li>
          	  <li>Second</li>
          	  <li>Third</li>
