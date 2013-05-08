@@ -49,4 +49,4 @@ Usage
            <li>Third</li>
          </ol>
          
-4. Output result <a href="http://jsfiddle.net/alexche8/UzXu3/3/">here</a>
+4. Output result <a href="http://jsfiddle.net/alexche8/UzXu3/9/">here</a>
