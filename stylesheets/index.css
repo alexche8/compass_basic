@@ -53,3 +53,17 @@
   counter-increment: inner-nested-2-15-one;
   content: '2.1.' counter(inner-nested-2-15-one) " ";
 }
+
+/* line 10, ../sass/nested_list.sass */
+.inner-nested-1-15-two {
+  counter-reset: inner-nested-1-15-two;
+}
+/* line 12, ../sass/nested_list.sass */
+.inner-nested-1-15-two > li {
+  list-style-type: none;
+}
+/* line 14, ../sass/nested_list.sass */
+.inner-nested-1-15-two > li:before {
+  counter-increment: inner-nested-1-15-two;
+  content: '1.2.' counter(inner-nested-1-15-two) " ";
+}
