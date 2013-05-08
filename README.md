@@ -20,10 +20,10 @@ Usage
          For three and more levels lists( 1.1.4, 1.51.1)
                   
          // @param {String} base class name of the ol list
-         // @param {Integer} number of lists. So on output we have 3 classes that will contain names 'nested-1', 'nested-2', ''nested-3'
-         // @param {String} inner nested list value
-         // @param {String} aplha-numeric synonym for inner nested list value, 
-         //                 becouse class names not support class names like '.1' in css file
+         // @param {Integer} number of lists
+         // @param {String} piece of counter value in html
+         // @param {String} piece of counter inner class name in css,
+         //                 becouse classes not supported names like '.1' in css file
          +nested_list('inner-nested', 2, '.1', '15-one')
    
 3. Paste class names into html
@@ -40,4 +40,4 @@ Usage
            <li>Third</li>
          </ol>
          
-5. Output result <a href="http://jsfiddle.net/alexche8/UzXu3/3/">here</a>
+4. Output result <a href="http://jsfiddle.net/alexche8/UzXu3/3/">here</a>
