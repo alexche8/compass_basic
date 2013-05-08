@@ -1,7 +1,7 @@
 nested_list
 ============
 
-Mixin for creating nested list(numbered) with sass, scss(like 1.4, 1.5.2 etc.).
+Mixin for creation nested list(numbered) with sass, scss(like 1.4, 1.5.2 etc.).
 
 Usage
 ============
