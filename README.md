@@ -10,7 +10,9 @@ Usage
          @import 'nested_list'
          
 2. Include +nested_list   
-   
+
+         // @param {String} base class name of the ol list
+         // @param {Integer} number of lists. So on output we have 3 classes that will contain names 'nested-1', 'nested-2', ''nested-3'      
          +nested_list('nested',3)
    
 3. Paste class names into html
