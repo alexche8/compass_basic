@@ -1,12 +1,17 @@
-@mixin nested_list($nested_class, $last_list, $depth:'', $depth_class:'')
-  @if $depth_class != ''
-    $depth_class: #{'-'}#{$depth_class}
-  @for $i from 1 through $last_list        
-    #{'.'}#{$nested_class}#{'-'}#{$i}#{$depth_class}
-      counter-reset: #{$nested_class}#{'-'}#{$i}#{$depth_class}
+// @param {String} base class name of the ol list
+// @param {Integer} number of lists
+// @param {String} piece of counter value in html
+// @param {String} piece of counter inner class name in css,
+//                 becouse classes not supported names like '.1' in css file
+@mixin nested_list($nested_class, $list_count, $counter_inner_value:'', $counter_inner_class:'')
+  @if $counter_inner_class != ''
+    $counter_inner_class: #{'-'}#{$counter_inner_class}
+  @for $i from 1 through $list_count
+    #{'.'}#{$nested_class}#{'-'}#{$i}#{$counter_inner_class}
+      counter-reset: #{$nested_class}#{'-'}#{$i}#{$counter_inner_class}
       >li
         list-style-type: none
         &:before
-          counter-increment: #{$nested_class}#{'-'}#{$i}#{$depth_class}            
-          content: #{"'"}#{$i}#{$depth}#{".'"} counter(#{$nested_class}#{'-'}#{$i}#{$depth_class}) " "
+          counter-increment: #{$nested_class}#{'-'}#{$i}#{$counter_inner_class}
+          content: #{"'"}#{$i}#{$counter_inner_value}#{".'"} counter(#{$nested_class}#{'-'}#{$i}#{$counter_inner_class}) " "
 
