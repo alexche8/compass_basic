@@ -1,4 +1,4 @@
-compass_list
+nested_list
 ============
 
 Mixin for creating nested list(numbered) with sass, scss(like 1.4, 1.5.2 etc.).
@@ -14,7 +14,8 @@ Usage
          For simple nested lists
 
          // @param {String} base class name of the ol list
-         // @param {Integer} number of lists. So on output we have 3 classes that will contain names 'nested-1', 'nested-2', ''nested-3'      
+         // @param {Integer} number of lists. 
+         // It is generate class names 'nested-1', 'nested-2', ''nested-3' and styles for them
          +nested_list('nested',3)
          
          For three and more levels lists( 1.1.4, 1.51.1)
@@ -24,6 +25,7 @@ Usage
          // @param {String} piece of counter value in html
          // @param {String} piece of counter inner class name in css,
          //                 becouse classes not supported names like '.1' in css file
+         // It is generate class names 'inner-nested-1-15-one', 'inner-nested-2-15-one' and styles for them
          +nested_list('inner-nested', 2, '.1', '15-one')
    
 3. Paste class names into html.
@@ -36,7 +38,13 @@ Usage
          	  <li>Third</li>
          	</ol>
            </li>
-           <li>Second</li>
+          <li>Second           
+                    <ol class="inner-nested-2-15-one">
+         	  <li>First</li>
+         	  <li>Second</li>
+         	  <li>Third</li>
+         	</ol>
+           </li>
            <li>Third</li>
          </ol>
          
